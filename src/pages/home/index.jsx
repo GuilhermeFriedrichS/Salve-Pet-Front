@@ -1,14 +1,14 @@
-import React from 'react'
-import Navbar from '../../components/navbar'
+import React from "react";
+import Navbar from "../../components/navbar";
 
-import './styles.css'
+import "./styles.css";
 
 function Home() {
-    return (
-        <thead>
-        <Navbar />
-        </thead>
-    )
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
-export default Home
+export default Home;
