@@ -1,5 +1,5 @@
-import axios from "axios"
 import { useEffect, useState } from "react"
+import connection from "../../api/connection"
 import './index.css'
 
 function Post(){
@@ -11,7 +11,7 @@ function Post(){
 
     
     function getPosts(){
-        axios.get("http://localhost:3000/posts")
+        connection.get("/posts")
         .then(resp => {
             console.log(resp.data)
             setPosts(resp.data)
