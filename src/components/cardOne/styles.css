@@ -1,6 +1,6 @@
 #modif{
-    width: 550px;
-    height: 580px;
+    width: 80vh;
+    height: 83  vh;
     position: relative;
     left: 110vh;
     top: 15vh;
@@ -9,11 +9,16 @@
     background-color: #6a5ab1;
     opacity: 0.9;
     box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.6);
-
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .main-cardOne {
     position: relative;
     top: 57px;
 }
+
+
+
 
