@@ -1,9 +1,8 @@
 #main-cardChangeAccount{
     width: 550px;
     height: 580px;
-    position: relative;
     left: 110vh;
-    top: 15vh;
+    top: 5vh;
     border: none;
     border-radius: 20px;
     background-color: #6a5ab1;
@@ -13,7 +12,15 @@
 }
 
 .main-cardChangeAccount {
+    width: 550px;
+    height: 580px;
     position: relative;
-    top: 57px;
+    left: 110vh;
+    top: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 

@@ -10,7 +10,7 @@ function SignIn() {
             <div className='main-signin'>
                 <Navbar titles={['Inicio', 'Sobre', 'Contato', 'Precisa de ajuda?']} links={['/home', '/about', '/contacts', '/help']} />
                 <CardOne />
-            </div >
+            </div>
         </div>
     )
 }

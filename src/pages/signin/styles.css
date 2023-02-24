@@ -1,4 +1,8 @@
 .container-signin {
+    background: url("../../../public/img/backgroundsignin.jpg") no-repeat center center; 
+    background-size: cover;
+    height: 100vh;
     width: 100%;
-    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
