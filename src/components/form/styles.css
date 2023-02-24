@@ -1,108 +1,76 @@
-
-html {
-    width: 100%;
-    height: 100%;
-    background-color: #F0F2F5;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.inputL {
-    border-radius: 10px;
-    border: 1px solid gray;
-    height: 49px;
-    width: 362px;
-    margin-top: 20px;
-    box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.2);
-    padding: 0 0 0 20px;
-    cursor: auto;
-}
-
-.div-principal {
-    text-align: center;
-}
-
-.container-principal-form .div-principal{
-        background-color: transparent;
-        width: 396px;
-        height: 370px;
-        border: none;
-        border-radius: 15px;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    
-}
-
-.container-principal-form {
-    margin-top: 15vh;
-}
-
-input:focus {
-    outline: 1px solid #C0C0C0;
-}
-
-
-#button1 {
+.inputCardone {
+    width: 426px;
+    min-width: 200px;
+    margin-bottom: 10px;
+    background: rgb(255, 255, 255);
     border: none;
-    border-radius: 5px;
-    background-color: #3f0d6e;
-    color: white;
-    height: 48px;
-    width: 375px;
-    margin: 15px; /* altura do botao */
-    font-size: 20px;
-    cursor: pointer;
-    box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.2);
-    font-weight: 900;
+    outline: none;
+    padding: 15px;
+    font-size: 16px;
+    color: #1c0235;
+    border-radius: 6px;
+    transition: .5s;
     position: relative;
-    right: 5px;
+    left: 47px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
+
 }
 
-#button2 {
-    border: none;
-    border-radius: 5px;
-    background-color: #3f0d6e;
-    color: #E9F2FE;
-    height: 48px;
-    width: 167px;
-    margin: 15px; /* altura do botao */
-    font-size: 18px;
+.conteudo-form-cardOne {
+    margin-top: 30px;
+}
+
+#btn-cardone {
+    width: 400px;
+    padding: .6em 2em;
     cursor: pointer;
-    box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.2);
-    font-weight: 550;
+    background: linear-gradient(90deg, #3f0d6e 50%, #b355df44 100%);
+    color: #fff;
+    border-radius: 6px;
+    border: none; 
+    box-shadow: 0px 0px 20px 1px rgba(43, 41, 41, 0.5);
+    position: relative;
+    left: 75px;
+    transition: 0.5s;
+    margin-top: 35px;
+    font-size: 16px;
+    height: 48px;
 }
 
-button:focus {
-    outline: 1px solid #C0C0C0;
+#btn-create-account {
+    width: 400px;
+    padding: .6em 2em;
+    cursor: pointer;
+    background: linear-gradient(90deg, #3f0d6e 50%, #b355df44 100%);
+    color: #fff;
+    border-radius: 6px;
+    border: none; 
+    box-shadow: 0px 0px 20px 1px rgba(43, 41, 41, 0.5);
+    position: relative;
+    left: 75px;
+    transition: 0.5s;
+    margin-top: 100px;
+    font-size: 16px;
+    height: 48px;
 }
 
-tbody div {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    height: 200px;
-}
-
-tbody div {  
-    height: 350px;  /* altura do input */
-}
-
-.aSenha {
+.h1-cardOne {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-.hr-cadastro {
-	background: rgb(209, 201, 211);
-	}
-
-.h1-formlogin {
     text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.href-chage-password {
     position: relative;
-    bottom: 20px;
-    color: white;
+    right: 185px;
+    top: 100px;
+}
+
+.hr-form-signin {
+    position: relative;
+    top: 25px;
+    width: 91%;
+    left: 24px;
 }

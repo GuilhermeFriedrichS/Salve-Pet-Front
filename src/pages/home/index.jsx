@@ -5,9 +5,10 @@ import './styles.css'
 
 function Home() {
     return (
-        <thead>
-        <Navbar />
-        </thead>
+        <div className='componente-main-home'>
+        <Navbar titles={['Inicio', 'Sobre', 'Contato', 'Precisa de ajuda?']} links={['/home', '/about', '/contacts', '/help']} />
+        
+        </div >
     )
 }
 

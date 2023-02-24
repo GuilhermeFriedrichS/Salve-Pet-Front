@@ -1,0 +1,6 @@
+.componente-main-changepassword {
+    background: url("../../../public/img/fotoleftchangepassword.jpg") no-repeat center center; 
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}

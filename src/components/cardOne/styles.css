@@ -1,13 +1,19 @@
 #modif{
-    width: 450px;
-    height: 500px;
-    position: fixed;
-    left: 120vh;
-    top: 20vh;
+    width: 550px;
+    height: 580px;
+    position: relative;
+    left: 110vh;
+    top: 15vh;
     border: none;
     border-radius: 20px;
-    background-color: #6A69A3;
+    background-color: #6a5ab1;
     opacity: 0.9;
-    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.6);
+
+}
+
+.main-cardOne {
+    position: relative;
+    top: 57px;
 }
 

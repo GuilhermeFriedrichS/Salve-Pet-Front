@@ -1,0 +1,5 @@
+.componente-main-signin {
+    background: url("../../../public/img/backgroundsignin.jpg") no-repeat center center; 
+    background-size: cover;
+    height: 100vh;
+}
