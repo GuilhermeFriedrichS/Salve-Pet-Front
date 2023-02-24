@@ -1,0 +1,13 @@
+#modif{
+    width: 450px;
+    height: 500px;
+    position: fixed;
+    left: 120vh;
+    top: 20vh;
+    border: none;
+    border-radius: 20px;
+    background-color: #6A69A3;
+    opacity: 0.9;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+

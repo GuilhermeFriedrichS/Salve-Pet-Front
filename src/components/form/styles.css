@@ -1,0 +1,108 @@
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #F0F2F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputL {
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 49px;
+    width: 362px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.2);
+    padding: 0 0 0 20px;
+    cursor: auto;
+}
+
+.div-principal {
+    text-align: center;
+}
+
+.container-principal-form .div-principal{
+        background-color: transparent;
+        width: 396px;
+        height: 370px;
+        border: none;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    
+}
+
+.container-principal-form {
+    margin-top: 15vh;
+}
+
+input:focus {
+    outline: 1px solid #C0C0C0;
+}
+
+
+#button1 {
+    border: none;
+    border-radius: 5px;
+    background-color: #3f0d6e;
+    color: white;
+    height: 48px;
+    width: 375px;
+    margin: 15px; /* altura do botao */
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 900;
+    position: relative;
+    right: 5px;
+}
+
+#button2 {
+    border: none;
+    border-radius: 5px;
+    background-color: #3f0d6e;
+    color: #E9F2FE;
+    height: 48px;
+    width: 167px;
+    margin: 15px; /* altura do botao */
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 550;
+}
+
+button:focus {
+    outline: 1px solid #C0C0C0;
+}
+
+tbody div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+}
+
+tbody div {  
+    height: 350px;  /* altura do input */
+}
+
+.aSenha {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.hr-cadastro {
+	background: rgb(209, 201, 211);
+	}
+
+.h1-formlogin {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    color: white;
+}
