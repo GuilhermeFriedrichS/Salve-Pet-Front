@@ -6,7 +6,7 @@ import './styles.css'
 function Home() {
     return (
         <thead>
-        <Navbar />
+            <Navbar />
         </thead>
     )
 }
