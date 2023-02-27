@@ -21,7 +21,7 @@ function FormChangeAccount() {
                                     Já possui uma conta? Entrar agora
                                 </p>
                              </a>
-                        <hr className="hr-form-signin" />
+                        <hr className="hr-form-change-account" />
                         <button type="submit" id="btn-create-account" className="hvr-grow">Registra-se</button>
                     </main>
                 </div>

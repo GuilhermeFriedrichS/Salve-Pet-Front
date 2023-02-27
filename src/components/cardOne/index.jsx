@@ -1,4 +1,5 @@
 import React from "react";
+import FormLogin from "../form";
 import './styles.css';
 
 
@@ -7,7 +8,8 @@ function CardOne() {
             <body>
                 <main className="main-cardOne">
                     <div id="modif">
-                    </div>
+                        <FormLogin />
+                     </div>
                 </main>
             </body>
     )
