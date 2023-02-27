@@ -1,0 +1,38 @@
+.filtro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    position: relative;
+    top: 20vh
+  }
+  
+  .input-region-animals {
+    padding: 5px;
+    border: none;   
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+
+  .button-region-animals {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #8376C3;
+    color: white;
+    cursor: pointer;
+  }
+
+.h1-region-animals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 18vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10vh;
+    color: #8376C3;
+}
+  

@@ -1,4 +1,4 @@
-.card {
+.card-animals {
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -8,70 +8,80 @@
     margin-bottom: 24px;
     max-width: 300px; /* Define a largura máxima do card */
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-
+    position: relative;
+    bottom: 100%
   }
   
-  .card-image {
+  .card-image-animals {
     width: 100%;
     height: auto;
     object-fit: cover;
     max-height: 150px; /* Define a altura máxima da imagem */
   }
   
-  .card-content {
+  .card-content-animals {
     padding: 16px;
+    height: 20vh;
+    position: relative;
+    bottom: 25px;
   }
   
-  .card-title {
-    font-size: 20px; /* Reduz a fonte do título */
+  .card-title-animals {
+    font-size: 10px; /* Reduz a fonte do título */
     margin-bottom: 8px;
   }
   
-  .card-text {
-    font-size: 14px; /* Reduz a fonte do texto */
+  .card-text-animals {
+    font-size: 8px; /* Reduz a fonte do texto */
     margin-bottom: 16px;
+    position: relative;
+    bottom: 10px;
   }
   
-  .card-button {
+  .card-button-animals {
+    width: 100%;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 2px 16px;
     border-radius: 4px;
     background-color: #2196f3;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s;
     font-size: 14px; /* Reduz a fonte do botão */
+    position: relative;
+    text-align: center;
+    bottom: 35px;
   }
   
-  .card-button:hover {
+  .card-button-animals:hover {
     background-color: #0d8bf2;
   }
   
   @media only screen and (min-width: 768px) {
-    .card {
-      max-width: 500px; /* Define a largura máxima do card para telas maiores */
+    .card-animals {
+      max-width: 300px; /* Define a largura máxima do card para telas maiores */
     }
   
-    .card-image {
+    .card-image-animals {
       max-height: 200px; /* Define a altura máxima da imagem para telas maiores */
     }
   
-    .card-content {
+    .card-content-animals {
       padding: 32px;
     }
   
-    .card-title {
-      font-size: 24px;
+    .card-title-animals {
+      font-size: 20px;
       margin-bottom: 16px;
     }
   
-    .card-text {
-      font-size: 16px;
+    .card-text-animals {
+      font-size: 12px;
       margin-bottom: 32px;
     }
   
-    .card-button {
-      font-size: 16px;
+    .card-button-animals {
+      font-size: 15px;
     }
   }
   

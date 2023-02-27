@@ -1,7 +1,6 @@
 .inputcard-change-account {
     width: 426px;
     min-width: 200px;
-    margin-bottom: 10px;
     background: rgb(255, 255, 255);
     border: none;
     outline: none;
@@ -11,15 +10,12 @@
     border-radius: 6px;
     transition: .5s;
     position: relative;
-    margin-top: 15px;
     box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
-    
-
 }
 
 .container-main-changepassword {
     position: relative;
-    bottom: 20px;
+    bottom: 58px;
 }
 
 .conteudo-form-card-change-account {
@@ -37,12 +33,12 @@
     box-shadow: 0px 0px 20px 1px rgba(43, 41, 41, 0.5);
     position: relative;
     transition: 0.5s;
-    margin-top: 35px;
+    margin-top: 25px;
     font-size: 16px;
     height: 48px;
 }
 
-#btn-create-account {
+#btn-change-account {
     width: 400px;
     padding: .6em 2em;
     cursor: pointer;
@@ -53,7 +49,7 @@
     box-shadow: 0px 0px 20px 1px rgba(43, 41, 41, 0.5);
     position: relative;
     transition: 0.5s;
-    margin-top: 100px;
+    margin-top: 73px;
     font-size: 16px;
     height: 48px;
 }
@@ -63,6 +59,8 @@
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
+    position: relative;
+    top: 1vh;
 }
 
 .href-chage-password {
@@ -70,13 +68,13 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    top: 100px;
+    top: 70px;
     color: white;
 }
 
 .hr-form-change-account {
     position: relative;
-    top: 25px;
+    top: 7px;
     width: 91%;
     left: 23px;
 }

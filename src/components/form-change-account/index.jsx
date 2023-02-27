@@ -23,7 +23,7 @@ function FormChangeAccount() {
                                 </p>
                             </Link>
                         <hr className="hr-form-change-account" />
-                        <button type="submit" id="btn-create-account" className="hvr-grow">Registra-se</button>
+                        <button type="submit" id="btn-change-account" className="hvr-grow">Registra-se</button>
                     </main>
                 </div>
             </body>
