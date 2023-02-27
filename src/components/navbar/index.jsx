@@ -2,18 +2,19 @@ import React from "react";
 import './styles.css';
 
 
-function Navbar() {
+function Navbar(props) {
     return (
             <body>
                 <header>
                         <nav className="nav-navbar">
                             <a className="hvr-grow" id="logo-navbar" href="/">Salve Pets</a>
                             <ul className="navbar-list">
-                                <li><a href="/" className="hvr-grow">Inicio</a></li>
-                                <li><a href="/" className="hvr-grow">Cachorro</a></li>
-                                <li><a href="/" className="hvr-grow">Gato</a></li>
-                                <li><a href="/" className="hvr-grow">Serviços</a></li>
-                                <li><a href="/" className="hvr-grow">Contatos</a></li>
+                                {
+                                    props.titles.map((title, i) => (
+                                        <li><a href={props.links[i]} className="hvr-grow">{title}</a></li>
+                                    ))
+                                }
+                                
                             </ul>
                         </nav>
                 </header>
