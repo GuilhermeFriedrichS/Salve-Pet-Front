@@ -9,6 +9,8 @@ import Cat from "../pages/cat";
 import Dog from "../pages/dog";
 import Service from "../pages/service";
 import Contact from "../pages/contact";
+import Posts from "../components/posts";
+import PostPage from "../components/animal";
 
 const AppRoutes = () => {
     return (
@@ -22,6 +24,7 @@ const AppRoutes = () => {
                 <Route path="/dog" element={<Dog />} />
                 <Route path="/cat" element={<Cat />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/posts/*" element={<PostPage />} />
             </Routes>        
         </BrowserRouter>
     )
