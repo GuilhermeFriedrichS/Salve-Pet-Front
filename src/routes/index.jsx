@@ -11,6 +11,9 @@ import ChangePassword from "../pages/change-account";
 import About from "../pages/about";
 import Help from "../pages/help";
 import Home from "../pages/home";
+import Posts from "../components/posts";
+import PostPage from "../components/animal";
+
 
 const AppRoutes = () => {
     return (
@@ -27,7 +30,8 @@ const AppRoutes = () => {
                 <Route path="/changepassword" element={<ChangePassword/>} />
                 <Route path="/about" element={<About /> } />
                 <Route path="/help" element={<Help />} />
-                
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/posts/*" element={<PostPage />} />
             </Routes>        
         </BrowserRouter>
     )
