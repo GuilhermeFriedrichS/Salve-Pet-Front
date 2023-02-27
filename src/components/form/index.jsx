@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 
@@ -21,7 +22,7 @@ function FormLogin() {
                                     className="inputCardone" />
 
                             <button type="submit" id="btn-cardone" className="hvr-grow" >Entrar</button>
-                            <a href="/changepassword" className="href-form-cardone">Esqueceu sua senha?</a>
+                            <Link to="/changepassword" className="href-form-cardone">Esqueceu sua senha?</Link>
                             <hr className="hr-form-signin"/>
                             <button type="submit" id="btn-create-account" className="hvr-grow">Registra-se</button>
                         </div>

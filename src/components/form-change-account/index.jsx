@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 
@@ -16,11 +17,11 @@ function FormChangeAccount() {
                                 className="inputcard-change-account"/>
                         </div>
                         <button type="submit" id="btn-card-change-account" className="hvr-grow" >Buscar</button>
-                            <a href="/" className="href-chage-password">
+                            <Link to="/" className="href-chage-password">
                                 <p className="p-form-change-account">
                                     Já possui uma conta? Entrar agora
                                 </p>
-                             </a>
+                            </Link>
                         <hr className="hr-form-change-account" />
                         <button type="submit" id="btn-create-account" className="hvr-grow">Registra-se</button>
                     </main>
