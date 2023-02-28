@@ -13,4 +13,6 @@ async function getPosts(id){
     }) 
 }
 
+
+
 export default getPosts
