@@ -1,5 +1,10 @@
 import { useEffect, useState } from "react"
 import getPosts from "../../helpers/getPosts"
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
 import './style.css'
 
 function PostCard(){
@@ -19,7 +24,18 @@ function PostCard(){
 
     return(
         <div className="animal-card">
-            <img src={'https://img.freepik.com/fotos-gratis/lindo-retrato-de-cachorro_23-2149218450.jpg?w=826&t=st=1677580168~exp=1677580768~hmac=3d33d8d9953e7c605517ab59cb5dfae5ba9d4c8ff652c7c5a374238d493102c9'} alt="public/img/backgroundsignin.jpg" />
+            <Swiper
+                spaceBetween={50}
+                slidesPerView={3}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                >
+                <SwiperSlide>Slide 1</SwiperSlide>
+                <SwiperSlide>Slide 2</SwiperSlide>
+                <SwiperSlide>Slide 3</SwiperSlide>
+                <SwiperSlide>Slide 4</SwiperSlide>
+                ...
+            </Swiper>
             <h1><b>{post.title}</b></h1>
             <h3><b>Onde foi encontrado: </b> {post.street}, {post.district}, {post.city}</h3>
             

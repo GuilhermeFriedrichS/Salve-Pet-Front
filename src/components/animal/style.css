@@ -5,8 +5,8 @@
     margin-left: 20px;
     margin-right: 50px;
 }
-.animal-card h1 {
-    font-size: large;
+.animal-card h1 b {
+    font-size:x-large;
 }
 .animal-card img {
     margin-top: 10px;
