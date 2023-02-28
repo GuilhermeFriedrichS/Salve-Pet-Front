@@ -11,9 +11,9 @@ function CardAnimals(props) {
         className="card-image-animals"
         />
       <div className="card-content-animals">
-        <h2 className="card-title-animals">Viralata caramelo</h2>
+        <h2 className="card-title-animals">{props.title}</h2>
         <p className="card-text-animals">
-          Rua Amapola, 999 - Praia grande, Jardim Real
+          {props.description}
         </p>
         <a href="#" className="card-button-animals">
           Saiba mais
