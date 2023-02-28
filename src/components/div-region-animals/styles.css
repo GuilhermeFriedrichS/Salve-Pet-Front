@@ -6,7 +6,7 @@
     background-color: #f2f2f2;
     border: 1px solid #ddd;
     position: relative;
-    top: 20vh
+    bottom: 10vh;
   }
   
   .input-region-animals {
@@ -30,9 +30,21 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 18vh;
+    bottom: 15vh;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 10vh;
     color: #8376C3;
 }
   
+.button-region-animals:hover {
+  background-color: #372f5f;
+}
+
+.container-region-animals {
+  position: relative;
+  top: 20vh;
+} 
+
+.main-region-animals {
+  position: relative;
+}

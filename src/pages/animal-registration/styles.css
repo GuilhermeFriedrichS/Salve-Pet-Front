@@ -1,0 +1,6 @@
+.componente-main-animal-registration {
+    background: url("../../../public/img/backgroundregister.jpg") no-repeat center center; 
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}

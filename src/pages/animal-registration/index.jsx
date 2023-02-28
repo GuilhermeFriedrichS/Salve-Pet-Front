@@ -1,17 +1,17 @@
 import React from 'react'
-import CardAbout from '../../components/card-about'
 import Navbar from '../../components/navbar'
+import PostAnimal from '../../components/post-animal'
 
 import './styles.css'
 
-function About() {
+function AnimalRegistration() {
     return (
-        <div className='componente-main-help'>
+        <div className='componente-main-animal-registration'>
             <Navbar titles={['Inicio', 'Sobre', 'Contato', 'Precisa de ajuda?']} 
                     links={['/home', '/about', '/contacts', '/help']} />
-            <CardAbout />
-        </div>
+            <PostAnimal />
+        </div >
     )
 }
 
-export default About
+export default AnimalRegistration
