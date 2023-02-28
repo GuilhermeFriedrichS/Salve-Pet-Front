@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import connection from "../../api/connection"
 import getPosts from "../../helpers/getPosts"
+import limitText from "../../helpers/limitText"
 import './index.css'
 
 function Posts(){
@@ -19,9 +20,6 @@ function Posts(){
     
     
     
-    function limitText(text, max){
-        return text.slice(0, max) + (text.length > max ? "..." : "");
-    }
     
     return(
         <>

@@ -12,7 +12,7 @@ import About from "../pages/about";
 import Help from "../pages/help";
 import Home from "../pages/home";
 import Posts from "../components/posts";
-import PostPage from "../components/animal";
+import PostPage from "../pages/animal/style";
 
 
 const AppRoutes = () => {
