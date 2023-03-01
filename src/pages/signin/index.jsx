@@ -8,7 +8,8 @@ function SignIn() {
     return (
         <div className='container-signin'>
             <div className='main-signin'>
-                <Navbar titles={['Inicio', 'Sobre', 'Contato', 'Precisa de ajuda?']} links={['/home', '/about', '/contacts', '/help']} />
+                <Navbar titles={['Inicio', 'Postar', 'Ajuda']} 
+                        links={['/home', '/post', '/help']} />
                 <CardOne/>
             </div>
         </div>

@@ -1,18 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
-import { redirect } from "react-router-dom";
 import getPosts from "../../helpers/getPosts"
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-
-// Import Swiper styles
-import 'swiper/css';
-import './style.css'
+import CarouselImagesAnimals from "../carousel-images-animals";
 
 function PostCard(){
     const [post, setPost] = useState([])
@@ -28,21 +16,10 @@ function PostCard(){
                 window.location.href = window.location.origin + "/home"
             })
     }, [])
-
     return(
-        <>
-            <div className="swiperDiv">
-                <Swiper 
-                    navigation={true}
-                    pagination={true} 
-                    modules={[Pagination, Navigation]} 
-                    className="animalSwiper">
-                    <SwiperSlide><img className="swiperImage" src="/img/backgroundchangepassword.jpg"></img></SwiperSlide>
-                    <SwiperSlide><img src="/img/backgroundchangepassword.jpg"></img></SwiperSlide>
-                </Swiper>
-            </div>
-            
-        </>
+       <div>
+            <CarouselImagesAnimals />
+       </div>
     )
   
     

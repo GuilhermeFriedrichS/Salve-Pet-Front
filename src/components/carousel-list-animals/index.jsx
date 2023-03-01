@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import limitText from "../../helpers/limitText";
+import getFullEnderess from '../../helpers/getFullEnderess'
 
 import "./styles.css";
 
@@ -32,7 +32,7 @@ export default function CarouselListAnimals() {
     <>
       <Swiper
         slidesPerView={5}
-        spaceBetween={30}
+        spaceBetween={20}
         pagination={{
           clickable: true,
         }}
@@ -41,7 +41,7 @@ export default function CarouselListAnimals() {
       >
         {
           animals.map((animal) => (
-            <SwiperSlide><CardAnimals title={limitText(animal.title, 14)} description={limitText(animal.description, 100)} /></SwiperSlide>
+            <SwiperSlide className="carousel-list-animals"><CardAnimals title={animal.title} description={getFullEnderess(animal)} /></SwiperSlide>
           ))
         }
        

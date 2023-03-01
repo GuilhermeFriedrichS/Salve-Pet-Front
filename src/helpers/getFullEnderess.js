@@ -1,5 +1,5 @@
-function getPosts(animal){
-    return animal.street + "," + animal.district + "," + animal.city
+function getFullEnderess(animal){
+    return animal.street + ", " + animal.district + ", " + animal.city
 }
 
-export default getPosts
+export default getFullEnderess

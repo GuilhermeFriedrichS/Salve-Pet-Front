@@ -1,16 +1,18 @@
 import React from 'react'
 import PostCard from '../../components/animal'
-import CardOne from '../../components/cardOne'
 import Navbar from '../../components/navbar'
+import CardOneAnimal from '../../components/content-one-animal'
 
-import './index.css'
+import './styles.css'
 
 function PostPage() {
     return (
         <div className='container-home'>
             <PostCard/>
-          <Navbar titles={['Inicio', 'Sobre', 'Contato', 'Precisa de ajuda?']} 
-                  links={['/home', '/about', '/contacts', '/help']} />
+            <Navbar titles={['Inicio', 'Postar', 'Ajuda']} 
+                  links={['/home', '/post', '/help']} />
+            <CardOneAnimal />
+            
         </div >
     )
 }

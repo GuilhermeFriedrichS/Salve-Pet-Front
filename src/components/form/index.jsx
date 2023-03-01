@@ -8,7 +8,7 @@ function FormLogin() {
                 <main className="centralizar-tudo">
                     <div className="conteudo-form-cardOne"> 
                         <h1  className="h1-cardOne">Conecte-se</h1>
-                            <input type="text" 
+                            <input  type="text" 
                                     name="email" 
                                     placeholder="Digite o email" 
                                     required="required" 

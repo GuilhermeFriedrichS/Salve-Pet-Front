@@ -1,0 +1,74 @@
+.main-corousel-images-animals {
+
+.CarouselImagesAnimals {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    transform: translate(10%, -40%);
+}
+.swiper {
+  width: 400px;
+  height: 450px;
+}
+
+.images-animals {
+  display: flexbo;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-button-prev {
+  color: rgb(255, 255, 255);
+}
+
+.swiper-button-next {
+  color: rgb(255, 255, 255);
+}
+
+.div-img-animals {
+  width: 85%;
+  height: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.img1-carousel-animals {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.images-animals:nth-child(1n) {
+  background-color: #8376C3;
+  
+}
+
+.images-animals:nth-child(2n) {
+ background-color: #8376C3;
+
+}
+
+.images-animals:nth-child(3n) {
+ background-color: #8376C3;
+
+}
+
+.images-animals:nth-child(4n) {
+ background-color: #8376C3;
+
+}
+
+.images-animals:nth-child(5n) {
+ background-color: #8376C3;
+
+}
+}
+

@@ -1,0 +1,28 @@
+.container-one-animal {
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    left: 70%;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+}
+
+.main-one-animal {
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+}
+
+.content-one-animal {
+    width: 600px;
+    height: 329px;
+    position: relative;
+    top: 60px;
+    left: -25.2%;
+    border: 1px solid red;
+}

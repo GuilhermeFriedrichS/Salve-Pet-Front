@@ -6,12 +6,12 @@
     background-color: #f2f2f2;
     border: 1px solid #ddd;
     position: relative;
-    top: 20vh
+    top: 14vh
   }
   
   .input-region-animals {
     padding: 5px;
-    border: none;   
+    border: none;
     border-radius: 3px;
     margin-right: 10px;
   }
@@ -30,9 +30,9 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 18vh;
+    top: 12vh;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 10vh;
+    font-size: 8vh;
     color: #8376C3;
 }
   
