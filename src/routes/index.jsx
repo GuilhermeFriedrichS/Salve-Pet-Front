@@ -13,6 +13,7 @@ import Help from "../pages/help";
 import Home from "../pages/home";
 import Posts from "../components/posts";
 import PostPage from "../pages/animal/style";
+import FormPost from "../components/form-post";
 
 
 const AppRoutes = () => {
@@ -32,6 +33,7 @@ const AppRoutes = () => {
                 <Route path="/help" element={<Help />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/home/posts/*" element={<PostPage />} />
+                <Route path="/teste" element={<FormPost />} />
             </Routes>        
         </BrowserRouter>
     )
