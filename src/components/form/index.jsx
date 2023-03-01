@@ -21,8 +21,12 @@ function FormLogin() {
                                     className="inputCardone" />
 
                             <button type="submit" id="btn-cardone" className="hvr-grow" >Entrar</button>
-                            <a href="/changepassword" className="href-form-cardone">Esqueceu sua senha?</a>
-                            <hr className="hr-form-signin"/>
+                            <div className="a-form-cardone">
+                                <a href="/changepassword" className="href-form-cardone">Esqueceu sua senha?</a>
+                            </div>
+                            <div className="hr-form-cardone">
+                                <hr className="hr-form-signin"/>
+                            </div>
                             <button type="submit" id="btn-create-account" className="hvr-grow">Registra-se</button>
                         </div>
                 </main>

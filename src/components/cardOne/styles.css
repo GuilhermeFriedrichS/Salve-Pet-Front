@@ -1,19 +1,18 @@
 .main-cardOne {
     width: 550px;
-    height: 580px;
-    position: relative;
-    left: 125vh;
-    top: 6vh;
+    height: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 20px 20px 2px;
+    position: absolute;
+    left: 53%;
+    top: 48%;
+    transform: translate(10%, -40%);
 }
 
 #modif{
-    width: 480px;
+    width: 550px;
     height: 480px;
-    left: 110vh;
     border: none;
     border-radius: 20px;
     background-color: #6a5ab1;
