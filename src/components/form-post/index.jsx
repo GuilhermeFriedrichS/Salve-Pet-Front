@@ -12,7 +12,6 @@ function FormPost() {
 
     function getBase64(file) {
         var reader = new FileReader();
-        console.log(reader.readAsDataURL(file))
         reader.readAsDataURL(file);
         reader.onload = function () {
             connection.post('/posts', {"base64": reader.result})
