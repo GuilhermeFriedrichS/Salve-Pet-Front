@@ -1,3 +1,18 @@
+.animalSwiper{
+    height: 70%;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.swiperDiv {
+    position: relative;
+    width: 50%;
+    height: 91vh;
+    margin-top: 9vh;
+}
+
 .animal-card {
     background-color: rgba(174, 38, 228, 0.521);
     border-radius: 10px;

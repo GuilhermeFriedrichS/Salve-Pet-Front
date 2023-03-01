@@ -31,7 +31,7 @@ const AppRoutes = () => {
                 <Route path="/about" element={<About /> } />
                 <Route path="/help" element={<Help />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/posts/*" element={<PostPage />} />
+                <Route path="/home/posts/*" element={<PostPage />} />
             </Routes>        
         </BrowserRouter>
     )
