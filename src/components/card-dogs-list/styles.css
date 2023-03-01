@@ -6,10 +6,12 @@
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     margin-bottom: 24px;
-    max-width: 300px; /* Define a largura máxima do card */
+    max-width: 450px; /* Define a largura máxima do card */
+    width: 450px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
     position: relative;
-    bottom: 100%
+    bottom: 100%;
+    
   }
   
   .card-image-animals {
@@ -21,21 +23,22 @@
   
   .card-content-animals {
     padding: 16px;
-    height: 20vh;
+    height: 28vh;
     position: relative;
-    bottom: 25px;
   }
   
   .card-title-animals {
     font-size: 10px; /* Reduz a fonte do título */
-    margin-bottom: 8px;
+    position: relative;
+    bottom: 25px;
+
   }
   
   .card-text-animals {
     font-size: 8px; /* Reduz a fonte do texto */
-    margin-bottom: 16px;
     position: relative;
-    bottom: 10px;
+    bottom: 30px;
+    text-align: justify center;
   }
   
   .card-button-animals {
@@ -43,31 +46,33 @@
     display: inline-block;
     padding: 2px 16px;
     border-radius: 4px;
-    background-color: #2196f3;
+    background-color: #584b96;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s;
-    font-size: 14px; /* Reduz a fonte do botão */
+    font-size: 14px;
     position: relative;
     text-align: center;
-    bottom: 35px;
+    bottom: 60px;
+    margin-top: 10px;
   }
   
   .card-button-animals:hover {
-    background-color: #0d8bf2;
+    background-color: rgb(83, 69, 151);
   }
   
   @media only screen and (min-width: 768px) {
     .card-animals {
-      max-width: 300px; /* Define a largura máxima do card para telas maiores */
+      max-width: 450px; /* Define a largura máxima do card para telas maiores */
     }
   
     .card-image-animals {
-      max-height: 200px; /* Define a altura máxima da imagem para telas maiores */
+      max-height: 350px; /* Define a altura máxima da imagem para telas maiores */
     }
   
     .card-content-animals {
       padding: 32px;
+      max-height: 300px;
     }
   
     .card-title-animals {
@@ -83,5 +88,6 @@
     .card-button-animals {
       font-size: 15px;
     }
+  
   }
   

@@ -9,7 +9,7 @@ function DivBusca(props) {
                 <h1 className="h1-region-animals">Encontre seu Pet aqui</h1>
                 <div className="filtro">
                     <input placeholder="Pesquisar" className="input-region-animals"/>
-                    <button className="button-region-animals">Filtrar</button>
+                    <button className="hvr-grow" id="button-region-animals">Filtrar</button>
                 </div>
             </div>
         </div>
