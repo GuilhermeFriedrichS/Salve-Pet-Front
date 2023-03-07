@@ -6,7 +6,7 @@ import './styles.css'
 function Help() {
     return (
         <div className='componente-main-help'>
-        <Navbar titles={['Inicio', 'Sobre', 'Contato', 'Precisa de ajuda?']} links={['/home', '/about', '/contacts', '/help']} />
+        <Navbar />
         </div >
     )
 }

@@ -13,30 +13,48 @@ import Help from "../pages/help";
 import Home from "../pages/home";
 import Posts from "../components/posts";
 import PostPage from "../pages/animal/style";
-import FormPost from "../components/form-post";
+import FormPost from "../components/teste";
 
 
 const AppRoutes = () => {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<SignIn />} />
-                <Route path="/home" element={<Home />} />
-                <Route path="/signin" element={<SignIn />} />
-                <Route path="/signout" element={<Signout />} />
-                <Route path="/service" element={<Service />} />
-                <Route path="/dog" element={<Dog />} />
-                <Route path="/cat" element={<Cat />} />
-                <Route path="/contacts" element={<Contact />} />
-                <Route path="/changepassword" element={<ChangePassword/>} />
-                <Route path="/about" element={<About /> } />
-                <Route path="/help" element={<Help />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/home/posts/*" element={<PostPage />} />
-                <Route path="/teste" element={<FormPost />} />
-            </Routes>        
-        </BrowserRouter>
-    )
+    if(!localStorage.getItem('token')){
+        return (
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<SignIn />} />
+                    <Route path="/home" element={<SignIn />} />
+                    <Route path="/signin" element={<SignIn />} />
+                    <Route path="/contacts" element={<Contact />} />
+                    <Route path="/changepassword" element={<ChangePassword/>} />
+                    <Route path="/about" element={<About /> } />
+                    <Route path="/help" element={<Help />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/home/posts/*" element={<PostPage />} />
+                </Routes>        
+            </BrowserRouter>
+        )
+    }else{
+        return(
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/home" element={<Home />} />
+                    <Route path="/signin" element={<SignIn />} />
+                    <Route path="/signout" element={<Signout />} />
+                    <Route path="/service" element={<Service />} />
+                    <Route path="/dog" element={<Dog />} />
+                    <Route path="/cat" element={<Cat />} />
+                    <Route path="/contacts" element={<Contact />} />
+                    <Route path="/changepassword" element={<ChangePassword/>} />
+                    <Route path="/about" element={<About /> } />
+                    <Route path="/help" element={<Help />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/home/posts/*" element={<PostPage />} />
+                    <Route path="/teste" element={<FormPost />} />
+                </Routes>        
+            </BrowserRouter>
+        )
+    }
 }
 
 export default AppRoutes
