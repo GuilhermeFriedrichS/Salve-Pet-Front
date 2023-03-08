@@ -15,6 +15,7 @@ async function getPosts(id){
             console.log(err.response.status)
             if(err.response.status == 401) {
                 localStorage.clear()
+                window.location.href = window.location.href
             }
         })
     }) 
