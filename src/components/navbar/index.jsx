@@ -3,11 +3,13 @@ import './styles.css';
 
 
 function Navbar(props) {
+    let signout = {}
+
     let navbar = {
         titles:['Inicio', 'Sobre', 'Contato', 'Precisa de ajuda?'],
         links:['/home', '/about', '/contacts', '/help']
     }
-    let signout = {}
+    
     if(localStorage.getItem('token')){
         signout.title = 'Sair'
         signout.link = '/log_out'
@@ -22,6 +24,14 @@ function Navbar(props) {
         })
     }
     
+    function left(){
+        localStorage.removeItem('token')
+    }
+
+    function logged(){
+        return localStorage.getItem('token') ? <li><a href="/home" onClick={left} className="hvr-grow">Sair</a></li> : ''
+    }
+
     return (
             <body>
                 <header>
@@ -34,7 +44,7 @@ function Navbar(props) {
                                     ))
                                 }
                                 {
-                                    <li><a href="#"  className="hvr-grow"></a></li>
+                                    logged()
                                 }
                             </ul>
                         </nav>

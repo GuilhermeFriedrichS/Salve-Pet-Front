@@ -7,18 +7,12 @@
     background-color: #6048c9;
 }
 .title{
-    position: relative;
-    top: 3vh;
-    margin-bottom: 3vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 5vh;
-    color: #ebe2e2;
-    
+    color: #ebe2e2;   
 }
 .cardForm {
     padding: 2vh;
     background-color: #8376c3;
-    position: relative; 
     width: 100vh;
     height: auto;
     min-height: 50vh;
@@ -27,12 +21,14 @@
 }
 .form {
     text-align: left;
+    max-width: 100%;
 }
 .form label{
-    position: relative;
-    left: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .form textarea {
-    max-width: 91.666667%;
+    max-width: 100%;
+}
+.inputsGrid {
+    width: 100%;
 }
